@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="popup">
+    <div class="content__box">
+      <div class="content-bg"></div>
+      <div class="popup__content">
+        <h4 class="popup__header">Welcome to Trendy.</h4>
+        <p class="popup__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sapiente eveniet, error totam.
+        </p>
+        <button class="popup__btn">Get Start Now</button>
+      </div>
+    <div class="popup-close" id="popup-close">
+      <i class="ri-close-line"></i>
+    </div>
+    </div>
+  </div>
+  
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Trendy.</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#products" class="nav__link">Products</a></li>
+          <li><a href="#category" class="nav__link">Category</a></li>
+          <li><a href="#blog" class="nav__link">Blog</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-fill"></i>
+        </div>
+      </div>
+      <div class="nav__right">
+           <button class="nav__sign" id="nav-sign" onclick="myOnClickFn()">
+            <i class="ri-user-line"></i>
+          </button>
+        
+      <div class="nav__cart" id="nav-cart">
+         <i class="ri-shopping-bag-line"></i>
+         
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-dashboard-line"></i>
+      </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <section class="home" id="home">
+      <div class="home__container grid">
+       
+        <div class="home__left container">
+          <span class="first__title">NEW SPRING COLLECTION</span>
+          <h2 class="home__title">Women's Classic Look</h2>
+          <div class="home__btns">
+            <button class="left__btn">Shop Now</button>
+            <button class="right__btn">Veiw Collections</button>
+          </div>
+        </div>
+        <div class="home__right">
+          <img src="Banner1.jpeg" alt="" class="home__img">
+        </div>
+      </div>
+    </section>
+    <section class="home__grid sectionl">
+      <div class="home__grid-container container grid">
+        <div class="home__grid-left">
+          <div class="offer__box">
+            <span class="small__title">Amazing</span>
+            <div>Sale</div>
+            <h2 class="special__title">30% <span>Off</span></h2>
+          </div>
+          <img src="Home-grid.png" alt="" class="home__grid-img">
+        </div>
+        <div class="home__grid-right">
+          <div class="home__first">
+            <div class="home__first-content">
+              <span class="small__title">Hot Sales Offer</span>
+              <div>Sale</div>
+              <h2 special__header>45% <small>Off</small></h2>
+            </div>
+            <img src="Home-grid1.png" alt="" class="home__first-img">
+          </div>
+          <div class="home__second">
+            
+            <img src="Home-grid2.png" alt="" class="home__second-img">
+            <div class="home__second-content">
+              <span class="small__title">Mega Sales Offer</span>
+              <div>Sale</div>
+              <h2 special__header>45% <small>Off</small></h2>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="feature section" id="products">
+      <h2 class="feature__title t-center">Feature Products</h2>
+      <div class="feature__container container grid">
+        <div class="feature__col">
+          <div class="sale__tag">Offer Sale</div>
+          <img src="Skirt.jpeg" alt="">
+          <div class="image__content">
+            <div class="image__title">New Skirts For Women's</div>
+            <span class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </span>
+            <div class="image__cart">
+             
+              <div class="price__top">
+                
+              <div class="price">350 <small>AED</small>
+              <br>
+              <span class="small">AED 89</span>
+              <span class="green">Off</span>
+              </div>
+              </div>
+              <i class="ri-shopping-bag-line"></i>
+            </div>
+          </div>
+          <div class="image__overlay">
+            <button class="cart__btn">
+              <div>Add to Cart</div>
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </div>
+        </div>
+        
+        <div class="feature__col">
+          <div class="sale__tag">Best Seller</div>
+          <img src="Wsec.jpg" alt="">
+          <div class="image__content">
+            <div class="image__title">Women's Jeans New Models</div>
+            <span class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </span>
+            <div class="image__cart">
+              <div class="price__top">
+                
+              <div class="price">450 <small>AED</small>
+              <br>
+              <span class="small">AED 109</span>
+              <span class="green">Off</span>
+              </div>
+              </div>
+             
+              <i class="ri-shopping-bag-line"></i>
+            </div>
+          </div>
+          <div class="image__overlay">
+            <button class="cart__btn">
+              <div>Add to Cart</div>
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="feature__col">
+          <div class="sale__tag">Saller</div>
+          <img src="Midi.jpeg" alt="">
+          <div class="image__content">
+            <div class="image__title">Warm Silk Midi</div>
+            <span class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </span>
+            <div class="image__cart">
+              <div class="price__top">
+                
+              <div class="price">1450 <small>AED</small>
+              <br>
+              <span class="small">AED 289</span>
+              <span class="green">Off</span>
+              </div>
+              </div>
+              <i class="ri-shopping-bag-line"></i>
+            </div>
+          </div>
+          <div class="image__overlay">
+            <button class="cart__btn">
+              <div>Add to Cart</div>
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </div>
+        </div>
+        <div class="feature__col">
+          <div class="sale__tag">Mega Sale</div>
+          <img src="Trend.jpeg" alt="" class="feature-f">
+          <div class="image__content">
+            <div class="image__title">New Arrivals Women</div>
+            <span class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+              <span>(4.5)</span>
+            </span>
+            <div class="image__cart">
+              <div class="price__top">
+                
+              <div class="price">1.899 <small>AED</small>
+              <br>
+              <span class="small">AED 289</span>
+              <span class="green">Off</span>
+              </div>
+              </div>
+              <i class="ri-shopping-bag-line"></i>
+            </div>
+          </div>
+          
+          <div class="image__overlay">
+            <button class="cart__btn">
+              <div>Add to Cart</div>
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__left">
+          <div class="about__bg"></div>
+          <img src="Trends.jpeg" alt="" class="about__img">
+        </div>
+        <div class="about__right">
+          <div class="first__title">About Us</div>
+          <h2 class="about__title">Women's New Trendy Look Suites.</h2>
+          <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ut nemo, mollitia optio cupiditate, repudiandae.</p>
+          <button class="about__btn">Read More</button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="offers section">
+      <div class="offer__container container">
+        <div class="offer__content">
+          <div class="offer__bg"></div>
+          <div class="offer__title">Mega Sale Offers</div>
+        </div>
+      </div>
+    </section>
+    <section class="shop section" id="category">
+      <div class="shop__container container">
+        <h2 class="shop__header t-center">New Collections</h2>
+        <div class="shop__data">
+          <div class="shop__item">
+            <img src="Offer11.jpg" alt="" class="shop__img">
+            <div class="shop__title">New Arrivals Women's</div>
+            <div class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+          </div>
+          <div class="shop__item">
+            <img src="Offer22.jpg" alt="" class="shop__img">
+            <div class="shop__title">New Arrivals Women's</div>
+            <div class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+          </div>
+          <div class="shop__item">
+            <img src="Offer33.jpg" alt="" class="shop__img">
+            <div class="shop__title">New Arrivals Women's</div>
+            <div class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+          </div>
+          <div class="shop__item">
+            <img src="Offer44.jpg" alt="" class="shop__img">
+            <div class="shop__title">New Arrivals Women's</div>
+            <div class="rating">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="news section" id="blog">
+      <h2 class="news__header t-center">Our Latest News</h2>
+      <div class="news__container container">
+        <div class="news__col">
+          <img src="News.webp" alt="" class="news__img">
+          <h2 class="news__title">Trendy</h2>
+          <p class="news__description">Lorem ipsum dolor sit amet, Harum, at!</p>
+          <button class="news__btn">Read More</button>
+        </div>
+        <div class="news__col">
+          <img src="News5.png" alt="" class="news__img">
+          <h2 class="news__title">Trendy</h2>
+          <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, laudantium.</p>
+          <button class="news__btn">Read More</button>
+        </div>
+        <div class="news__col">
+          <img src="News3.jpg" alt="" class="news__img">
+          <h2 class="news__title">Trendy</h2>
+          <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aliquid.</p>
+          <button class="news__btn">Read More</button>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__content grid">
+        <div class="footer__left">
+          <div class="footer__logo">Trendy.</div>
+          <div class="footer__description">Lorem ipsum dolor sit amet, consectetur.</div>
+          <div class="footer__social">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-fill"></i>
+          </div>
+        </div>
+        
+        <div class="footer__about">
+          <div class="footer__title">About</div>
+          <li>Home</li>
+          <li>About</li>
+          <li>Featured</li>
+          <li>Category</li>
+          <li>Products</li>
+        </div>
+        
+        <div class="footer__about">
+          <div class="footer__title">Services</div>
+          <li>E-Payments</li>
+          <li>Delivery</li>
+          <li>Online Shop</li>
+        </div>
+        
+        <div class="footer__about">
+          <div class="footer__title">Subscribe</div>
+          <div class="subscribe__description">Help Customer Care Service 24/7 Contact.</div>
+          <div class="footer__input">
+            <input type="text" placeholder="Enter Email">
+            <button class="subscribe__btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__cards">
+        <img src="Visa.jpeg" alt="">
+        <img src="Master.png" alt="">
+        <img src="Pay.png" alt="">
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="footer__bottom">
+      <span>2022© All rights are reserved by <small>ramcodes.</small></span>
+    </div>
+  </footer>
+  <script src="Main.js"></script>
+  <script src="Load.js"></script>
+  <script src="app.js"></script>
+ 
+ 
+</body>
+</html>
